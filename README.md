@@ -1,4 +1,4 @@
-# PS Get Resource Pack
+# AI Get Resource Pack
 
 I spent lot of time preparing icons for developers. I've understood, that standart Illustrator functions can't help me. So i decided
 to create two scripts, for iOS and for Android, to help me prepare resources more effectively. I'd like to share them with you.
