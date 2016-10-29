@@ -106,9 +106,12 @@ function getOptions() {
 	var options = new ExportOptionsSVG();
 	
 	options.DTD = SVGDTDVersion.SVG1_1;
-	options.fontSubsetting = SVGFontSubsetting.ALLGLYPHS;
-	options.fontType = SVGFontType.OUTLINEFONT;
-	options.embedRasterImages = true;
+	options.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
+	options.fontType = SVGFontType.SVGFONT;
+	options.documentEncoding = SVGDocumentEncoding.UTF8;
+	options.coordinatePrecision = 1
+	options.cssProperties = SVGCSSPropertyLocation.STYLEELEMENTS;
+	options.embedRasterImages = false;
 	
 	return options;
 }
