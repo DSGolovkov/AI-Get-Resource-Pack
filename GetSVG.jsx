@@ -109,7 +109,7 @@ function getOptions() {
 	options.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
 	options.fontType = SVGFontType.SVGFONT;
 	options.documentEncoding = SVGDocumentEncoding.UTF8;
-	options.coordinatePrecision = 1
+	options.coordinatePrecision = 3
 	options.cssProperties = SVGCSSPropertyLocation.STYLEELEMENTS;
 	options.embedRasterImages = false;
 	
